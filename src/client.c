@@ -34,18 +34,15 @@ int	ft_send_bits(char **argv)
 	while (argv[2][i])
 	{
 		c = argv[2][i];
-		if (c <= 255)
+		j = 7;
+		while (j >= 0)
 		{
-			j = 7;
-			while (j >= 0)
-			{
-				if (((c >> j) & 1) == 1)
-					kill(ft_atoi(argv[1]), SIGUSR1);
-				else
-					kill(ft_atoi(argv[1]), SIGUSR2);
-				usleep(500);
-				j--;
-			}
+			if (((c >> j) & 1) == 1)
+				kill(ft_atoi(argv[1]), SIGUSR1);
+			else
+				kill(ft_atoi(argv[1]), SIGUSR2);
+			usleep(500);
+			j--;
 		}
 		i++;
 	}
