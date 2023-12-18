@@ -16,7 +16,7 @@ void	handler1(int signal)
 {
 	if (signal == SIGUSR1)
 	{
-		write(1, "Message Sent\n", 16);
+		write(1, "Message Sent\n", 17);
 	}
 }
 
