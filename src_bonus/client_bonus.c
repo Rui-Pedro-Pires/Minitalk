@@ -16,7 +16,7 @@ void	handler1(int signal)
 {
 	if (signal == SIGUSR1)
 	{
-		write(1, "Adeus\n", 6);
+		write(1, "Message Received\n", 16);
 	}
 }
 
