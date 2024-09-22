@@ -34,11 +34,11 @@ I also implemented the following bonuses:
 ## Installation
 1. Clone my repository:
    ```bash
-   git clone git@github.com:Rui-Pedro-Pires/42Mini_Talk.git
+   git clone git@github.com:Rui-Pedro-Pires/Minitalk.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd minitalk
+   cd Minitalk
    ```
 3. Compile the project with the provided `Makefile`:
    ```bash
@@ -52,6 +52,3 @@ I also implemented the following bonuses:
 ## External Functions
 The project uses the following external functions:
 - `write`, `signal`, `sigaction`, `kill`, `getpid`, `malloc`, `free`, `pause`, `usleep`, `exit`.
-
-## License
-This project is licensed under the MIT License.
