@@ -27,7 +27,7 @@ In this project, I learned how to handle UNIX signals like `SIGUSR1` and `SIGUSR
    The server will print the received message.
 
 ## Bonus Features
-If the mandatory part works perfectly, I implemented the following bonuses:
+I also implemented the following bonuses:
 - The server acknowledges each message by sending a signal back to the client.
 - Unicode character support for more complex messages.
 
