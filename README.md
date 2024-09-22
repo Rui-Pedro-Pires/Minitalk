@@ -34,7 +34,7 @@ If the mandatory part works perfectly, I implemented the following bonuses:
 ## Installation
 1. Clone my repository:
    ```bash
-   git clone https://github.com/your-username/minitalk.git
+   git clone git@github.com:Rui-Pedro-Pires/42Mini_Talk.git
    ```
 2. Navigate to the project directory:
    ```bash
